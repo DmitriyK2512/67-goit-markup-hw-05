@@ -499,7 +499,7 @@ address {
   transition: background-color var(--transition-dur-and-func);
 }
 .footer-social-link-icon{
-  fill: currentColor;
+  fill: currentColor;  
 }
 .footer-social-link:hover,
 .footer-social-link:focus{
@@ -541,6 +541,7 @@ address {
 }
 .portfolio-item-clients-link{
   display: inline-block;
+  transition: box-shadow var(--transition-dur-and-func);
 }
 
 .portfolio-item-clients-link:hover {
